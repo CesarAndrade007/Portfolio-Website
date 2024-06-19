@@ -1,5 +1,5 @@
 .desktop {
-    background-color: #537b92;
+    background-color: #223843;
     padding: 10px;
     top: 0;
     left: 0;
@@ -19,15 +19,15 @@
 }
 
 .link {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     position: relative;
 }
 
-.link :global(a:visited),
-.link :global(a:active),
-.link :global(a:link) {
-    color: white;
+.link:visited,
+.link:active,
+.link:link {
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@
     bottom: -5px;
     width: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     transition: width 0.3s ease-in-out;
   }
   
