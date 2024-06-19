@@ -1,0 +1,47 @@
+.desktop {
+    background-color: #537b92;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.options {
+    text-align: right;
+}
+
+.options > li {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.link :global(a:visited),
+.link :global(a:active),
+.link :global(a:link) {
+    color: white;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+.link:hover::after {
+    width: 100%;
+  }
