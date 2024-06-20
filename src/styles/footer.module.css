@@ -1,3 +1,26 @@
+
 .footerContent > span {
     color: whitesmoke;
+}
+
+.linkedin,
+.github,
+.email,
+.instagram {
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.linkedin:hover,
+.github:hover,
+.email:hover,
+.instagram:hover {
+    transform: scale(1.3);
+}
+
+.socialContainer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 40px;
 }
