@@ -1,17 +1,20 @@
-.desktop {
+.navbar {
     background-color: #223843;
+    position: fixed;
     padding: 10px;
     top: 0;
     left: 0;
     width: 100%;
     box-sizing: border-box;
+    box-shadow: 0 2px 10px black;
+    z-index: 1000;
 }
 
 .options {
     text-align: right;
 }
 
-.desktop > ul {
+.navbar > ul {
     color: white;
 }
 
@@ -21,7 +24,8 @@
     padding: 0 30px;
 }
 
-.link {
+.link,
+.mobile_link {
     color: whitesmoke;
     text-decoration: none;
     position: relative;
@@ -29,7 +33,10 @@
 
 .link:visited,
 .link:active,
-.link:link {
+.link:link,
+.mobile_link:visited,
+.mobile_link:active,
+.mobile_link:link {
     color: whitesmoke;
     text-decoration: none;
 }
@@ -43,8 +50,108 @@
     height: 2px;
     background-color: whitesmoke;
     transition: width 0.3s ease-in-out;
-  }
+}
   
 .link:hover::after {
     width: 100%;
-  }
+}
+
+/******* MOBILE NAVIGATION *******/
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger b {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger.active b:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active b:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active b:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.mobile_options {
+    display: none;
+    flex-direction: column;
+    background-color: #000000d1;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    margin: 0;
+    gap: 20px;
+    padding-top: 60px;
+    width: 40%;
+    height: 100vh;
+    z-index: 0;
+    transition: left 0.3s ease; 
+}
+
+.mobile_options.active {
+    left: 0;
+}
+
+.mobile_options > .mobile_link {
+    position: relative;
+    display: inline-block;
+}
+
+/******* RESPONSIVE PORTION *******/
+@media (max-width: 1024px) {
+    .desktop {
+        padding: 5px;
+    }
+
+    .options > li {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+        padding: 20px;
+    }
+    
+    .options {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .mobile {
+        display: flex;
+    }
+
+    .mobile_options {
+        display: flex;
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px) {
+    .mobile_options {
+        display: flex;
+        width: 60%;
+    }
+}

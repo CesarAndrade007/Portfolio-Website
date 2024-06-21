@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
 import NavBar from "../components/navbar";
 import FooterContent from "../components/footer";
 import '../styles/globals.css';
-import { Inter } from "next/font/google";
 
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -27,6 +26,7 @@ export default function RootLayout({
         <header>
           <NavBar />
         </header>
+
         <main>
           {children}
         </main>
