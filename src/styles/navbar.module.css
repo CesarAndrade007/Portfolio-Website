@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #223843;
+    background-color: #272932;
     position: fixed;
     padding: 10px;
     top: 0;
@@ -145,7 +145,7 @@
 
     .mobile_options {
         display: flex;
-        width: 40%;
+        width: 20%;
     }
 }
 
