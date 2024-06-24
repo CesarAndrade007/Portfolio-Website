@@ -1,0 +1,111 @@
+[
+    {
+        "logo": "/company-logos/unitrans-logo.png",
+        "alt": "Unitrans Logo",
+        "company": "ASUCD Unitrans",
+        "position": "Web Programmer",
+        "date": "Jun 2022 - Present",
+        "location": "Davis, CA",
+        "description": [
+            "Migrated the Unitrans public website from Dell servers to Amazon Web Services (AWS) ECS2 instance to improve website performance for 40,000 daily riders in Davis",
+            "Fixed bugs and developed new features for improved user experience via Django framework.",
+            "Incorporated best accessibility practices to ensure the Unitrans public website met ADA compliance.",
+            "Created a docker container for the employee website to streamline development setup for new web programmers.",
+            "Managed both Unitrans public website and employee website databases via PostgreSQL."
+        ],
+        "technologies": [
+            "Python",
+            "HTML",
+            "SCSS",
+            "JavaScript",
+            "Django",
+            "Bootstrap",
+            "JQuery",
+            "NGINX",
+            "Redis",
+            "GNU/Linux"
+        ]
+    },
+    {
+        "logo": "/company-logos/oba-logo.png",
+        "alt": "OneBusAway Logo",
+        "company": "OneBusAway",
+        "position": "Software Engineer Intern",
+        "date": "Nov. 2023 - Present",
+        "location": "Davis, CA",
+        "description": [
+            "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL.",
+            "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
+            "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders."
+        ],
+        "technologies": [
+            "Java",
+            "Docker",
+            "Microsoft Azure",
+            "Bash"
+        ]
+    },
+    {
+        "logo": "/company-logos/ttg-logo.png",
+        "alt": "The Tulip Girls Logo",
+        "company": "The Tulip Girls",
+        "position": "Web Developer",
+        "date": "Jan. 2024 - Jun. 2024",
+        "location": "Santa Rosa, CA",
+        "description": [
+            "Developed website utilizing WordPress CMS with PHP, JavaScript, HTML, and CSS.",
+            "Led a team of developers in the content management and structure of the website.",
+            "Contributed to the creation of documentation for managing the website.",
+            "Developed Information Architecture for the website.",
+            "Conducted successful Migration once website development concluded."
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "WordPress CMS"
+        ]
+    },
+    {
+        "logo": "/company-logos/asucdit-logo.png",
+        "alt": "ASUCD IT Logo",
+        "company": "ASUCD",
+        "position": "IT Web Programmer",
+        "date": "Jun. 2023 - Oct. 2023",
+        "location": "Davis, CA",
+        "description": [
+            "Worked with Active Directory to set up new computers for various departments for ASUCD.",
+            "Managed Amazon Web Services (AWS) EC2 instances for various websites under ASUCD.",
+            "Created a development website for Unitrans public website using the Linux, NGINX, MySQL, and PHP (LEMP) stack.",
+            "Configured and installed computers for various departments within ASUCD."
+        ],
+        "technologies": [
+            "Amazon Web Services (AWS)",
+            "MariaDB",
+            "WordPress CMS",
+            "Active Directory",
+            "PHP"
+        ]
+    },
+    {
+        "logo": "/company-logos/RHBA-logo.jpg",
+        "alt": "Redemption House of the Bay Area",
+        "company": "Redemption House of the Bay Area",
+        "position": "Web Developer",
+        "date": "Jan. 2022 - Jun. 2022",
+        "location": "Santa Rosa, CA",
+        "description": [
+            "Led the team on content management/structure of the website.",
+            "Contributed to the creation of documentation for managing the website.",
+            "Worked with a team of developers to help revamp the whole website architecture.",
+            "Contributed to the UI/UX Design of the entire website."
+        ],
+        "technologies": [
+            "GoDaddy CMS",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]

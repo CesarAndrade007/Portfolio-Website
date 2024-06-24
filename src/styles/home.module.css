@@ -9,6 +9,15 @@
     }
 }
 
+@keyframes bounceup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
 @keyframes fadein {
     0% {
         opacity: 0;
@@ -30,7 +39,7 @@
 
 .intro_banner {
     display: block;
-    background-color: #ffffff;
+    background-color: #E7ECEF;
     width: 90%;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
@@ -39,14 +48,30 @@
 }
 
 .intro_content {
-    font-size: 18px;
-    padding: 40px;
+    font-size: 25px;
+    padding: 50px;
+    margin-top: 20px;
     animation: slidein 2s forwards;
 }
 
+.about_button {
+    position: relative;
+    border-style: none;
+    background-color: rgb(255, 166, 0);
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 100px;
+    transition: transform 0.5s ease-in-out;
+}
 
-#content {
-    color: red;
+.about_button > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.about_button:hover {
+    transform: translateY(-10px);
 }
 
 /*** INTRO IMAGE ***/
@@ -55,7 +80,7 @@
     width: 75%;
     height: auto;
     object-fit: cover;
-    margin-left: -300px;
+    margin-left: -380px;
     margin-top: -120px;
     z-index: 0;
 }
@@ -71,27 +96,101 @@
 }
 
 
+/*** ABOUT ME SECTION ***/
+.about_container {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 200px;
+    padding: 50px;
+    animation: fadein 1s forwards;
+}
 
+.profile_img {
+    border-radius: 200px;
+    box-shadow: 0 0 5px black;
+}
+
+.about_paragraph {
+    font-size: 1.3em;
+    width: 50vw;
+}
+
+.tech_list {
+    font-size: 1.1em;
+}
+
+
+/*** EXPERIENCE ***/
+.exp_title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.experience_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+.company_img {
+    border-radius: 10px;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.exp_content {
+    width: 40vw;
+}
 
 @media (max-width: 1024px) {
     .intro_img {
-        width: 40%;
-        margin-left: -250px;
+        width: 50%;
+        margin-left: -180px;
     }
 
     .intro_banner {
         width: 90%;
     }
+
+    .intro_content {
+        font-size: 22px;
+        padding: 10px;
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    .about_container {
+        gap: 90px;
+    }
 }
     
 @media (max-width: 768px) {
     .intro_img {
-        width: 60%;
-        margin-left: -130px;
+        width: 90%;
+        margin-left: -400px;
     }
 
     .intro_banner {
-        width: 70%;
+        width: 100%;
+    }
+
+    .intro_content {
+        font-size: 20px;
+        margin-left: 30px;
+        width: 55%;
+    }
+
+    .about_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 }
 
