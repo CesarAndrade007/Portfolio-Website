@@ -12,7 +12,6 @@ export default function FooterContent() {
                 <div className={styles.socialContainer}>
                     <a target="_blank" href="https://www.linkedin.com/in/cesar-lopez-andrade/"><FontAwesomeIcon className={styles.linkedin} icon={faLinkedin} size="2x" /></a>
                     <a target="_blank" href="https://github.com/CesarAndrade007"><FontAwesomeIcon className={styles.github} icon={faGithub} size="2x" /></a>
-                    <a target="_blank" href="https://www.instagram.com/mrcesarandrd/"><FontAwesomeIcon className={styles.instagram} icon={faInstagram} size="2x" /></a>
                     <a href="mailto:cesiumdev@gmail.com"><FontAwesomeIcon className={styles.email} icon={faEnvelope} size="2x" /></a>
                 </div>
             </div>

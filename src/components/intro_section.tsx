@@ -7,7 +7,8 @@ export default function IntroductionSection() {
             <div className={styles.intro_container}>
                 <div className={styles.intro_banner}>
                     <div className={styles.intro_content}>
-                        <h1 id="content">Testing</h1>
+                        <h1>Welcome, I'm Cesar!</h1>
+                        <h2>Software Engineer and Full-Stack Web Developer.</h2>
                     </div>
                 </div>
                 <Image 

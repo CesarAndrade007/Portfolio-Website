@@ -56,6 +56,14 @@
     width: 100%;
 }
 
+.link_button {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 /******* MOBILE NAVIGATION *******/
 .hamburger {
     display: none;
