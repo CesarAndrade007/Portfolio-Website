@@ -27,6 +27,15 @@
     }
 }
 
+.spacer {
+    overflow-x: hidden;
+}
+
+.spacer_inverted {
+    overflow-x: hidden;
+    margin-bottom:-5px;
+}
+
 /*** INTRO BANNER AND CONTENT ***/
 .intro_container {
     display: flex;
@@ -100,7 +109,7 @@
 .about_container {
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: white;
     gap: 200px;
     padding: 50px;
     animation: fadein 1s forwards;
@@ -128,8 +137,10 @@
 }
 
 .experience_container {
+    background-color: #E7ECEF;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 40px;
     padding: 20px;
 }
@@ -142,11 +153,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    padding: 50px;
+    width: 60vw;
     gap: 100px;
+    box-shadow: 0 5px 2px;
 }
 
 .exp_content {
     width: 40vw;
+}
+
+
+/*** PROJECTS ***/
+.proj_container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
 
 @media (max-width: 1024px) {

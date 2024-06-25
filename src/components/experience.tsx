@@ -19,8 +19,8 @@ export default async function ExperienceSection() {
 
     return (
         <>
-            <h1 className={styles.exp_title}>Work Experience</h1>
             <div id="experience" className={styles.experience_container}>
+            <h1 className={styles.exp_title}>Work Experience</h1>
                 {data.map((exp, index) => (
                     <div key={index} className={styles.exp}>
                         <div className={styles.exp_content}>
