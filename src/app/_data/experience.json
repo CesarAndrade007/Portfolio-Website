@@ -36,7 +36,8 @@
         "description": [
             "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL.",
             "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
-            "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders."
+            "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders.",
+            "Projected to deploy OneBusAway’s Docker Instance on Azure to help facilitate an easier transit experience for Unitrans’ riders."
         ],
         "technologies": [
             "Java",

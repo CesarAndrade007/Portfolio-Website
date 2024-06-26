@@ -3,8 +3,12 @@ import Image from 'next/image';
 import styles from '@/styles/home.module.css';
 
 interface Projects {
-    project: string;
+    title: string;
     description: string;
+    image: string;
+    tag: string;
+    alt: string;
+    link: string;
     technologies: string[];
 }
 
@@ -20,13 +24,36 @@ export default async function ProjectSection(){
                 </svg>
             </div>
             <div id="projects" className={styles.proj_container}>
-            <h1 className={styles.exp_title}>Projects</h1>
-                {data.map((proj, index) => (
-                    <div key={index} className={styles.proj}>
-                        {/* Image */}
-
-                    </div>
-                ))}
+                <h1 className={styles.proj_title}>Client and Personal Projects</h1>
+                    <div className={styles.proj}>
+                    {data.map((proj, index) => (
+                        <div key={index}>
+                            <h1>{proj.title} <span className={styles.proj_type}>{proj.tag}</span></h1>
+                            <Image
+                                className={styles.proj_img}
+                                src={proj.image}
+                                width={500}
+                                height={655}
+                                alt={proj.alt}
+                            />
+                            <div className={styles.proj_desc}>
+                                <h2>Project Description</h2>
+                                <span className={styles.proj_timeline}></span>
+                                <p>{proj.description}</p>
+                                <div className={styles.proj_details}>
+                                    <h3>Technologies Used:</h3>
+                                    {proj.technologies.map((item, index) => (
+                                    <span className={styles.tech_list} key={index}>
+                                        {item}{index < proj.technologies.length - 1 ? ' | ' : ''}
+                                    </span>
+                                    ))}
+                                    <br /><br />
+                                    <a className={styles.proj_link} href={proj.link}>Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     );

@@ -1,7 +1,11 @@
 [
     {
-        "project": "The Tulip Girls",
+        "title": "The Tulip Girls",
         "description": "The Tulip Girls pride themselves in delivering the best, fresh floral arrangements in Sonoma County. They are a local business that provides floral arrangements for personal use and for a variety of events.The Tulip Girls pride themselves in delivering the best, fresh floral arrangements in Sonoma County. They are a local business that provides floral arrangements for personal use and for a variety of events.",
+        "image": "/thumbnails/ttg-thumbnail.png",
+        "tag": "Client",
+        "alt": "The Tulip Girls (Client Project)",
+        "link": "https://thetulipgirls.com/",
         "technologies": [
             "HTML",
             "CSS",
@@ -11,8 +15,12 @@
         ]
     },
     {
-        "project": "Redemption House of the Bay Area",
+        "title": "Redemption House of the Bay Area",
         "description": "Redemption House is a multifaceted program established to assist survivors of human trafficking in getting back to a functional, productive, and healthy lifestyle.",
+        "image": "/thumbnails/rhba-thumbnail.png",
+        "tag": "Client",
+        "alt": "Redemption House of the Bay Area (Client Project)",
+        "link": "https://redemptionhouseofthebayarea.org/",
         "technologies": [
             "HTML",
             "CSS",
@@ -21,8 +29,12 @@
         ]
     },
     {
-        "project": "Level-Up Arcade",
+        "title": "Level-Up Arcade",
         "description": "Level-Up Arcade is a website with an intended audience for young adults that are looking for a nostalgic feel for retro video games. This website works on desktop, tablet, and mobile mediums",
+        "image": "/thumbnails/arcade-thumbnail.png",
+        "tag": "Personal",
+        "alt": "Level-Up Arcade (Personal Project)",
+        "link": "https://cesarandrade007.github.io/Level-Up-Arcade/",
         "technologies": [
             "HTML",
             "CSS",

@@ -33,7 +33,7 @@
 
 .spacer_inverted {
     overflow-x: hidden;
-    margin-bottom:-5px;
+    margin-bottom: -5px;
 }
 
 /*** INTRO BANNER AND CONTENT ***/
@@ -104,6 +104,10 @@
     z-index: 1;
 }
 
+.overlay_content {
+    display: none;
+    color: white;
+}
 
 /*** ABOUT ME SECTION ***/
 .about_container {
@@ -125,13 +129,9 @@
     width: 50vw;
 }
 
-.tech_list {
-    font-size: 1.1em;
-}
-
 
 /*** EXPERIENCE ***/
-.exp_title {
+.exp_title, .proj_title {
     text-align: center;
     font-size: 40px;
 }
@@ -158,19 +158,67 @@
     padding: 50px;
     width: 60vw;
     gap: 100px;
-    box-shadow: 0 5px 2px;
+    box-shadow: 0 2px 2px;
+}
+
+.exp.active {
+    animation: slidein 2s forwards;
 }
 
 .exp_content {
     width: 40vw;
 }
 
+.tech_list {
+    font-size: 1.1em;
+}
 
 /*** PROJECTS ***/
 .proj_container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
+    padding: 50px;
+}
+
+.proj {
+    display: flex;
+    gap: 40px;
+}
+
+.proj_desc > h2 {
+    text-align: left;
+}
+
+.proj_img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 2px black;
+}
+
+.proj_desc {
+    background-color: white;
+    width: 30vw;
+}
+
+.proj_type {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: orange;
+}
+
+.proj_link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 5px 20px;
+    border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -192,6 +240,25 @@
 
     .about_container {
         gap: 90px;
+    }
+
+    .exp {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .exp_content{
+        width: 100%;
+    }
+
+    .proj {
+        flex-direction: column;
+    }
+    .proj_desc {
+        width: 100%;
+        font-size: 20px;
+    }
+    .proj_img {
+        height: 500px;
     }
 }
     
@@ -216,9 +283,21 @@
         align-items: center;
         gap: 50px;
     }
+
+    .about_paragraph {
+        width: 60vw;
+    }
+
+    .proj_img {
+        height: 350px;
+    }
 }
 
 @media (max-width: 425px) {
+    .intro_container {
+        height: 70vh;
+    }
+
     .intro_img {
         width: 100%;
         margin-left: 0px;
@@ -226,5 +305,17 @@
 
     .intro_banner {
         display: none;
+    }
+
+    .overlay_content {
+        display: block;
+    }
+
+    .intro_content {
+        width: 80%;
+    }
+
+    .proj_img {
+        height: 200px;
     }
 }
