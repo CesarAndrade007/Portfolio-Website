@@ -24,7 +24,7 @@ export default async function ExperienceSection() {
                 {data.map((exp, index) => (
                     <div key={index} className={styles.exp}>
                         <div className={styles.exp_content}>
-                            <h1>{exp.position} - {exp.company}</h1>
+                            <h1>{exp.position} | {exp.company}</h1>
                             <h2>{exp.date}</h2>
                             <h2>{exp.location}</h2>
                             <ul className={styles.exp_list}>
@@ -33,7 +33,7 @@ export default async function ExperienceSection() {
                                     
                                 ))}
                             </ul>
-                            <h3>Technologies Used:</h3>
+                            <h2>Technologies Used:</h2>
                             <div>
                                 {Object.entries(exp.technologies).map(([tech, url], idx) => (
                                     <img

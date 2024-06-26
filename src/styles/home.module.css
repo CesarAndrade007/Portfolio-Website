@@ -58,7 +58,7 @@
 }
 
 .intro_content {
-    font-size: 25px;
+    font-size: 1.6em;
     padding: 50px;
     margin-top: 10px;
     animation: slidein 2s forwards;
@@ -176,7 +176,6 @@
     font-size: 1.2em;
 }
 
-
 .tech_list {
     font-size: 1.1em;
 }
@@ -239,6 +238,19 @@
     padding: 5px 45px;
     border-radius: 10px;
 }
+
+@media (max-width: 2560px) {
+    
+    .intro_content {
+        font-size: 1.4em;
+    }
+
+    .intro_img {
+        width: 50%;
+        margin-left: -300px;
+    }
+}
+
 
 @media (max-width: 1024px) {
     .intro_img {
@@ -314,7 +326,7 @@
 
 @media (max-width: 425px) {
     .intro_container {
-        height: 70vh;
+        height: 65vh;
     }
 
     .intro_img {
@@ -336,5 +348,23 @@
 
     .proj_img {
         height: 200px;
+    }
+
+    .about_container {
+        padding: 35px 15px 15px 15px;
+    }
+
+    .about_paragraph {
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .exp_list {
+        font-size: 1.25em;
+    }
+
+    .exp_content {
+        width: 80%;
+        font-size: 0.8em;
     }
 }
