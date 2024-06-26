@@ -246,11 +246,16 @@
     }
 
     .intro_img {
-        width: 50%;
-        margin-left: -300px;
+        width: 100%;
+        margin-left: -320px;
     }
 }
 
+@media (max-width: 1440px) {
+    .intro_content {
+        font-size: 1.15em;
+    }
+}
 
 @media (max-width: 1024px) {
     .intro_img {
@@ -263,7 +268,7 @@
     }
 
     .intro_content {
-        font-size: 22px;
+        font-size: 1.3em;
         padding: 10px;
         margin-left: 30px;
         width: 50%;
