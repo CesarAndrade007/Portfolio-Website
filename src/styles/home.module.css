@@ -51,6 +51,7 @@
     background-color: #E7ECEF;
     width: 90%;
     height: 100%;
+    background-image: linear-gradient(to right, #E7ECEF, white);
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
     z-index: 10;
     position: relative;
@@ -171,6 +172,10 @@
 
 .tech_list {
     font-size: 1.1em;
+}
+
+.tech_icon {
+    margin-right: 10px;
 }
 
 /*** PROJECTS ***/

@@ -13,18 +13,18 @@
             "Created a docker container for the employee website to streamline development setup for new web programmers.",
             "Managed both Unitrans public website and employee website databases via PostgreSQL."
         ],
-        "technologies": [
-            "Python",
-            "HTML",
-            "SCSS",
-            "JavaScript",
-            "Django",
-            "Bootstrap",
-            "JQuery",
-            "NGINX",
-            "Redis",
-            "GNU/Linux"
-        ]
+        "technologies": {
+            "Python": "https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png",
+             "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+             "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+             "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png",
+             "Sass": "https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png",
+             "Django": "https://github.com/marwin1991/profile-technology-icons/assets/62091613/9bf5650b-e534-4eae-8a26-8379d076f3b4",
+             "Bootstrap": "https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png",
+             "NGINX": "https://user-images.githubusercontent.com/25181517/183345125-9a7cd2e6-6ad6-436f-8490-44c903bef84c.png",
+             "Redis": "https://user-images.githubusercontent.com/25181517/182884894-d3fa6ee0-f2b4-4960-9961-64740f533f2a.png",
+             "Linux": "https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"
+         }
     },
     {
         "logo": "/company-logos/oba-logo.png",
@@ -39,12 +39,13 @@
             "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders.",
             "Projected to deploy OneBusAway’s Docker Instance on Azure to help facilitate an easier transit experience for Unitrans’ riders."
         ],
-        "technologies": [
-            "Java",
-            "Docker",
-            "Microsoft Azure",
-            "Bash"
-        ]
+        "technologies": {
+            "Java": "https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png",
+            "Docker": "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
+            "Microsoft Azure": "https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png",
+            "Bash": "https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png",
+            "Linux": "https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"
+        }
     },
     {
         "logo": "/company-logos/ttg-logo.png",
@@ -60,13 +61,14 @@
             "Developed Information Architecture for the website.",
             "Conducted successful Migration once website development concluded."
         ],
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "WordPress CMS"
-        ]
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png",
+            "PHP": "https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png",
+            "WordPress CMS": "https://user-images.githubusercontent.com/25181517/192158957-b1256181-356c-46a3-beb9-487af08a6266.png",
+            "Figma": "https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png"
+        }
     },
     {
         "logo": "/company-logos/asucdit-logo.png",
@@ -81,13 +83,13 @@
             "Created a development website for Unitrans public website using the Linux, NGINX, MySQL, and PHP (LEMP) stack.",
             "Configured and installed computers for various departments within ASUCD."
         ],
-        "technologies": [
-            "Amazon Web Services (AWS)",
-            "MariaDB",
-            "WordPress CMS",
-            "Active Directory",
-            "PHP"
-        ]
+        "technologies": {
+            "PHP": "https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png",
+            "AWS": "https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png",
+            "MariaDB": "https://github.com/marwin1991/profile-technology-icons/assets/136815194/3c698a4f-84e4-4849-a900-476b14311634",
+            "WordPress CMS": "https://user-images.githubusercontent.com/25181517/192158957-b1256181-356c-46a3-beb9-487af08a6266.png",
+            "Active Directory": "https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png"
+        }
     },
     {
         "logo": "/company-logos/RHBA-logo.jpg",
@@ -102,11 +104,11 @@
             "Worked with a team of developers to help revamp the whole website architecture.",
             "Contributed to the UI/UX Design of the entire website."
         ],
-        "technologies": [
-            "GoDaddy CMS",
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png",
+            "Figma": "https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png"
+        }
     }
 ]

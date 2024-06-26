@@ -10,7 +10,7 @@ interface Experience {
     date: string;
     location: string;
     description: string[];
-    technologies: string[];
+    technologies: {[key:string]: string};
 }
 
 export default async function ExperienceSection() {
@@ -32,12 +32,20 @@ export default async function ExperienceSection() {
                                     <li key={idx}>{item}</li>
                                 ))}
                             </ul>
-                            <h3>Technologies Used: </h3>
-                            {exp.technologies.map((item, index) => (
-                                <span className={styles.tech_list} key={index}>
-                                    {item}{index < exp.technologies.length - 1 ? ' | ' : ''}
-                                </span>
-                            ))}
+                            <h3>Technologies Used:</h3>
+                            <div>
+                                {Object.entries(exp.technologies).map(([tech, url], idx) => (
+                                    <img
+                                        className={styles.tech_icon} 
+                                        key={idx}
+                                        src={url}
+                                        width={50}
+                                        height={50}
+                                        alt={`${tech} logo`}
+                                        title={`${tech}`}
+                                    />
+                                ))}
+                            </div>
                         </div>
                         <Image
                             className={styles.company_img}
@@ -51,5 +59,4 @@ export default async function ExperienceSection() {
             </div>
         </>
     );
-
 }
