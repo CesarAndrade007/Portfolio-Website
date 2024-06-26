@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import home from '../styles/home.module.css';
 import IntroductionSection from "@/components/intro_section";
 import AboutSection from "@/components/about";

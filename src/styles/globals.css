@@ -26,14 +26,9 @@ footer {
   z-index: 0;
 }
 
-h1 {
-  font-family: "Staatliches", sans-serif;
-}
-
 main {
   margin-top: 70px;
 }
-
 
 @media (max-width: 1024px) {
   footer {
