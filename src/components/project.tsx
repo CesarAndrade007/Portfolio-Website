@@ -28,7 +28,7 @@ export default async function ProjectSection(){
                 <div className={styles.proj}>
                     {data.map((proj, index) => (
                         <div key={index}>
-                            <h1>{proj.title}</h1>
+                            <h1 className={styles.project_name}>{proj.title}</h1>
                             <Image
                                 className={styles.proj_img}
                                 src={proj.image}
