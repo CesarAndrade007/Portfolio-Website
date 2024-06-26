@@ -25,10 +25,10 @@ export default async function ProjectSection(){
             </div>
             <div id="projects" className={styles.proj_container}>
                 <h1 className={styles.proj_title}>Client and Personal Projects</h1>
-                    <div className={styles.proj}>
+                <div className={styles.proj}>
                     {data.map((proj, index) => (
                         <div key={index}>
-                            <h1>{proj.title} <span className={styles.proj_type}>{proj.tag}</span></h1>
+                            <h1>{proj.title}</h1>
                             <Image
                                 className={styles.proj_img}
                                 src={proj.image}
@@ -37,7 +37,7 @@ export default async function ProjectSection(){
                                 alt={proj.alt}
                             />
                             <div className={styles.proj_desc}>
-                                <h2>Project Description</h2>
+                                <h2>Project Description <span className={styles.proj_type}>{proj.tag}</span></h2>
                                 <span className={styles.proj_timeline}></span>
                                 <p>{proj.description}</p>
                                 <div className={styles.proj_details}>
