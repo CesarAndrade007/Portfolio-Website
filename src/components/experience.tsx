@@ -29,7 +29,7 @@ export default async function ExperienceSection() {
                             <h2>{exp.location}</h2>
                             <ul className={styles.exp_list}>
                                 {exp.description.map((item, idx) => (
-                                    <li key={idx}>{item}</li>
+                                    <li key={idx}>{item} <br /><br /></li>
                                     
                                 ))}
                             </ul>
