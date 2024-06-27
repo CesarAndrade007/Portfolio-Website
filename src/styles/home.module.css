@@ -36,6 +36,56 @@
     margin-bottom: -5px;
 }
 
+
+/*** STICKY SOCIAL MEDIA ***/
+.sticky_social {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 15%;
+    z-index: 5;
+}
+
+.linkedin,
+.github,
+.email {
+    color: white;
+}
+
+.social_block {
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    margin-left: -10px;
+    overflow-x: hidden;
+    background-color: #272932;
+    transition: transform 0.1s ease-in;
+}
+
+.sticky_social > :nth-child(1){
+    border-top-right-radius: 5px;
+    background-color: rgb(0, 102, 255);
+}
+
+.sticky_social > :nth-child(1):hover{
+    background-color: rgb(1, 75, 185);
+}
+
+.sticky_social > :nth-child(3){
+    background-color: rgb(0, 153, 255);
+    border-bottom-right-radius: 5px;
+}
+
+.sticky_social > :nth-child(3):hover{
+    background-color: rgb(0, 107, 179);
+    border-bottom-right-radius: 5px;
+}
+
+.social_block:hover {
+    transform: translateX(10px);
+}
+
 /*** INTRO BANNER AND CONTENT ***/
 .intro_container {
     display: flex;
@@ -187,14 +237,14 @@
 .proj_container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: white;
     padding: 50px;
-    margin: 0 auto;
 }
 
 .proj {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -298,6 +348,10 @@
 }
     
 @media (max-width: 768px) {
+    .sticky_social {
+        display: none;
+    }
+
     .intro_img {
         width: 90%;
         margin-left: -400px;
@@ -332,7 +386,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     .intro_container {
         height: 65vh;
     }
@@ -355,7 +409,13 @@
     }
 
     .proj_img {
+        width: 100%;
         height: 200px;
+        box-shadow: 0 0 10px black;
+    }
+
+    .proj_container {
+        padding: 20px;
     }
 
     .about_container {
