@@ -151,9 +151,13 @@
         display: flex;
     }
 
+    .mobile_link {
+        font-size: 25px;
+    }
+
     .mobile_options {
         display: flex;
-        width: 20%;
+        width: 40%;
     }
 }
 

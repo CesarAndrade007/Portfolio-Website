@@ -366,6 +366,10 @@
         font-size: 1.2em;
         width: 100%;
     }
+    .exp {
+        width: 100%;
+        padding: 30px 10px;
+    }
 
     .exp_list {
         font-size: 1.25em;
