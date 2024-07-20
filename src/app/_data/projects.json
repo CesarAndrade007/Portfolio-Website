@@ -6,13 +6,13 @@
         "tag": "Client",
         "alt": "The Tulip Girls (Client Project)",
         "link": "https://thetulipgirls.com/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "PHP",
-            "JavaScript",
-            "Wordpress CMS"
-        ]
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "PHP": "https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png",
+            "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png",
+            "WordPress CMS": "https://user-images.githubusercontent.com/25181517/192158957-b1256181-356c-46a3-beb9-487af08a6266.png"
+        }
     },
     {
         "title": "Redemption House of the Bay Area",
@@ -21,12 +21,11 @@
         "tag": "Client",
         "alt": "Redemption House of the Bay Area (Client Project)",
         "link": "https://redemptionhouseofthebayarea.org/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "GoDaddy CMS"
-        ]
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+        }
     },
     {
         "title": "Level-Up Arcade",
@@ -35,10 +34,24 @@
         "tag": "Personal",
         "alt": "Level-Up Arcade (Personal Project)",
         "link": "https://cesarandrade007.github.io/Level-Up-Arcade/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "JavaScript": "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+        }
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Level-Up Arcade is a website with an intended audience for young adults that are looking for a nostalgic feel for retro video games. This website works on desktop, tablet, and mobile mediums",
+        "image": "/thumbnails/website-thumbnail.png",
+        "tag": "Personal",
+        "alt": "Portfolio Website (Personal Project)",
+        "link": "https://cesardev.com",
+        "technologies": {
+            "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+            "CSS": "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+            "TypeScript": "https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png",
+            "Nextjs": "https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704"
+        }
     }
 ]
