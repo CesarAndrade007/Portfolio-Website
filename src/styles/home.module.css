@@ -99,7 +99,7 @@
     flex-direction: row;
     position: relative;
     overflow: hidden;
-    height: 50vh;
+    height: 500px;
     animation: fadein 1.5s forwards;
 }
 
