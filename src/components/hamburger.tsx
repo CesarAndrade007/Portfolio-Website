@@ -2,6 +2,8 @@
 import { useEffect, useRef } from 'react';
 import styles from '../styles/navbar.module.css';
 import { MobileNav } from './mobile_nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export function Hamburger() {
     const mobileMenuRef = useRef<HTMLUListElement>(null);

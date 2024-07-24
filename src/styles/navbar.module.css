@@ -100,7 +100,7 @@
 .mobile_options {
     display: none;
     flex-direction: column;
-    background-color: #000000d1;
+    background-color: #000000;
     list-style-type: none;
     position: fixed;
     top: 0;

@@ -36,7 +36,7 @@ export default async function ProjectSection() {
                                 alt={project.alt}
                             />
                             <div className={styles.project_overlay}>
-                                <h1>{project.title}<span className={styles.proj_type}>{project.tag}</span></h1>
+                                <h1><span className={styles.proj_type}>{project.tag}</span><br /><br />{project.title}</h1>
                                 <div className={styles.project_tech}>
                                     {Object.entries(project.technologies).map(([tech, url], idx) => (
                                         <img
