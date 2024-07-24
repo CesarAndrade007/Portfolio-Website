@@ -9,6 +9,18 @@
     }
 }
 
+@keyframes fadeup {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
 @keyframes bounceup {
     0%, 100% {
         transform: translateY(0);
@@ -26,6 +38,8 @@
         opacity: 1;
     }
 }
+
+
 
 .spacer {
     overflow-x: hidden;
@@ -118,9 +132,8 @@
     font-size: 1.6em;
     padding: 50px;
     margin-top: 10px;
-    animation: slidein 2s forwards;
+    animation: fadeup 2s forwards;
 }
-
 
 .arrow {
     display: none;
@@ -166,17 +179,22 @@
     background-color: white;
     gap: 200px;
     padding: 50px;
-    animation: fadein 1s forwards;
+    animation: fadein 2s forwards;
 }
 
 .profile_img {
     border-radius: 200px;
     box-shadow: 0 0 5px black;
+    animation: slidein 3s forwards;
 }
 
 .about_paragraph {
     font-size: 1.3em;
     width: 50vw;
+}
+
+.about_description {
+    animation: fadeup 2s forwards;
 }
 
 

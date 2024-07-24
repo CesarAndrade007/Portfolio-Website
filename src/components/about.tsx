@@ -12,7 +12,7 @@ export default function AboutSection() {
                     height={300}
                     alt="Cesar Lopez-Andrade"
                 />
-                <div>
+                <div className={styles.about_description}>
                     <h1>About Me</h1>
                     <p className={styles.about_paragraph}>
                         My name's Cesar Lopez-Andrade, I am a recent UC Davis Computer Science graduate.
