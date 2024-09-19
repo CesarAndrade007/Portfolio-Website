@@ -172,7 +172,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    gap: 200px;
+    gap: 110px;
     padding: 50px;
     animation: fadein 2s forwards;
 }
