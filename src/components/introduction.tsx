@@ -14,6 +14,10 @@ export default function Introduction(){
                     software.
                 </p>
                 <br />
+                <a href='/resume.pdf' className={styles.link_button} download>
+                    Download Resume <FontAwesomeIcon className={styles.download} icon={faChevronDown} />
+                </a>
+                <br /><br /><br />
                 <a href='#about' className={styles.down_arrow}>
                     <FontAwesomeIcon className={styles.arrow} icon={faChevronDown} size='3x'/>
                 </a>

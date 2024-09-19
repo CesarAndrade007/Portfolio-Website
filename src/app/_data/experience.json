@@ -3,15 +3,14 @@
         "logo": "/company-logos/unitrans-logo.png",
         "alt": "Unitrans Logo",
         "company": "ASUCD Unitrans",
-        "position": "Web Programmer",
+        "position": "Software Engineer",
         "date": "Jun 2022 - Present",
         "location": "Davis, CA",
         "description": [
-            "Migrated the Unitrans public website from Dell servers to Amazon Web Services (AWS) ECS2 instance to improve website performance for 40,000 daily riders in Davis",
-            "Fixed bugs and developed new features for improved user experience via Django framework.",
-            "Incorporated best accessibility practices to ensure the Unitrans public website met ADA compliance.",
-            "Created a docker container for the employee website to streamline development setup for new web programmers.",
-            "Managed both Unitrans public website and employee website databases via PostgreSQL."
+            "Migrated the Unitrans public website from Dell servers to AWS EC2 instance to enhance website performance for 40,000 daily riders in Davis.",
+            "Enhanced staff workflow with new employee website features like internal email alerts, dynamic resource generation, and shift generation, saving significant work hours and costs.",
+            "Upgraded website technologies such as Django, PostgreSQL, and JQuery to their latest versions to improve user experience and web security.",
+            "Streamlined development setup by containerizing both the public and employee websites with Docker, saving significant development setup hours and costs."
         ],
         "technologies": {
             "Python": "https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png",
@@ -35,10 +34,9 @@
         "date": "Nov. 2023 - Present",
         "location": "Davis, CA",
         "description": [
-            "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL.",
-            "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
             "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders.",
-            "Projected to deploy OneBusAway’s Docker Instance on Azure to help facilitate an easier transit experience for Unitrans’ riders."
+            "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
+            "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL."
         ],
         "technologies": {
             "Java": "https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png",
@@ -56,11 +54,9 @@
         "date": "Jan. 2024 - Jun. 2024",
         "location": "Santa Rosa, CA",
         "description": [
-            "Developed website utilizing WordPress CMS with PHP, JavaScript, HTML, and CSS.",
-            "Led a team of developers in the content management and structure of the website.",
-            "Contributed to the creation of documentation for managing the website.",
-            "Developed Information Architecture for the website.",
-            "Conducted successful Migration once website development concluded."
+            "Developed a responsive E-commerce website for floral arrangements using WordPress CMS, PHP, HTML, and CSS, successfully resulting in more exposure and traffic to the business.",
+            "Designed the website’s structure and navigation by creating low-fidelity wireframes and comprehensive information architecture, improving user navigation and overall experience.",
+            "Managed the post-development migration of the website, ensuring a smooth transition to live operation with minimal downtime and high client satisfaction."
         ],
         "technologies": {
             "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
@@ -81,8 +77,7 @@
         "description": [
             "Worked with Active Directory to set up new computers for various departments for ASUCD.",
             "Managed Amazon Web Services (AWS) EC2 instances for various websites under ASUCD.",
-            "Created a development website for Unitrans public website using the Linux, NGINX, MySQL, and PHP (LEMP) stack.",
-            "Configured and installed computers for various departments within ASUCD."
+            "Configured firewall via PfSense and installed antivirus software on Windows OS computers for various departments within ASUCD to replace outdated/broken computers."
         ],
         "technologies": {
             "PHP": "https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png",
@@ -100,10 +95,9 @@
         "date": "Jan. 2022 - Jun. 2022",
         "location": "Santa Rosa, CA",
         "description": [
-            "Led the team on content management/structure of the website.",
-            "Contributed to the creation of documentation for managing the website.",
-            "Worked with a team of developers to help revamp the whole website architecture.",
-            "Contributed to the UI/UX Design of the entire website."
+            "Revamped the website architecture and UI/UX experience to reach intended donors, resulting in thousands of dollars raised for events raising awareness about sex trafficking and support for victims.",
+            "Improved the SEO of the revamped website, resulting in increased traffic by up to 70%.",
+            "Contributed to the creation of documentation for managing the website for continuous maintenance."
         ],
         "technologies": {
             "HTML": "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
