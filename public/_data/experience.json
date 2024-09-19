@@ -27,26 +27,6 @@
          }
     },
     {
-        "logo": "/company-logos/oba-logo.png",
-        "alt": "OneBusAway Logo",
-        "company": "OneBusAway",
-        "position": "Software Engineer Intern",
-        "date": "Nov. 2023 - Present",
-        "location": "Davis, CA",
-        "description": [
-            "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders.",
-            "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
-            "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL."
-        ],
-        "technologies": {
-            "Java": "https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png",
-            "Docker": "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
-            "Microsoft Azure": "https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png",
-            "Bash": "https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png",
-            "Linux": "https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"
-        }
-    },
-    {
         "logo": "/company-logos/ttg-logo.png",
         "alt": "The Tulip Girls Logo",
         "company": "The Tulip Girls",
@@ -65,6 +45,26 @@
             "PHP": "https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png",
             "WordPress CMS": "https://user-images.githubusercontent.com/25181517/192158957-b1256181-356c-46a3-beb9-487af08a6266.png",
             "Figma": "https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png"
+        }
+    },
+    {
+        "logo": "/company-logos/oba-logo.png",
+        "alt": "OneBusAway Logo",
+        "company": "OneBusAway",
+        "position": "Software Engineer Intern",
+        "date": "Nov. 2023 - Mar. 2024",
+        "location": "Davis, CA",
+        "description": [
+            "Researched and applied findings to help run the real-time transit software, OneBusAway (OBA), in a Docker container to help facilitate an easier transit experience for Unitrans’s 40,000 daily riders.",
+            "Modified OBA Docker image to run without root privileges to improve security for transit agencies.",
+            "Added multi-database support to OBA Docker image so that users of the container can run it with either PostgreSQL or MySQL."
+        ],
+        "technologies": {
+            "Java": "https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png",
+            "Docker": "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
+            "Microsoft Azure": "https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png",
+            "Bash": "https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png",
+            "Linux": "https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"
         }
     },
     {
