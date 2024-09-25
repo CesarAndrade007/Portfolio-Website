@@ -245,7 +245,7 @@
     box-shadow: 0 2px 2px;
 }
 
-.exp {
+.exp, .project {
     opacity: 0;
     transform: translateX(-20px); /* Start slightly to the left */
     transition: opacity 1s ease, transform 1s ease;

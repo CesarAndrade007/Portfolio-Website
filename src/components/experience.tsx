@@ -1,9 +1,9 @@
-"use client"; // This directive tells Next.js this is a client-side component
+"use client";
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from '@/styles/home.module.css';
-import { useIntersectionObserver } from '@/hooks/IntersectionObserver';
+import { useIntersectionObserver } from '@/_hooks/IntersectionObserver';
 
 interface Experience {
   logo: string;
