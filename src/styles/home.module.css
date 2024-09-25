@@ -190,6 +190,8 @@
 .about_container {
     display: flex;
     justify-content: center;
+    border-top: 10px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 -10px 45px rgba(255, 255, 255, 0.87);
     background-color: white;
     gap: 110px;
     padding: 50px;
@@ -241,6 +243,22 @@
     width: 60vw;
     gap: 100px;
     box-shadow: 0 2px 2px;
+}
+
+.exp {
+    opacity: 0;
+    transform: translateX(-20px); /* Start slightly to the left */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade_in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.fade_out {
+    opacity: 0;
+    transform: translateX(-150px);
 }
 
 .exp.active {
