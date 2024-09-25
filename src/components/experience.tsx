@@ -55,7 +55,7 @@ export default function ExperienceSection() {
         return (
           <div
             key={index}
-            ref={(el) => (refs.current[index] = el)}
+            ref={(el) => {refs.current[index] = el}}
             className={`${styles.exp} ${visibleIndices.includes(index) ? styles.fade_in : styles.fade_out}`}
           >
             <div className={styles.exp_content}>
