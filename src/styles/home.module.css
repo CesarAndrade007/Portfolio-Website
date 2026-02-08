@@ -214,6 +214,24 @@
 }
 
 
+/*** INSERSECTIONOBSERVER STYLES ***/
+.exp, .project {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade_in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.fade_out {
+    opacity: 0;
+    transform: translateX(-150px);
+}
+
+
 /*** EXPERIENCE ***/
 .exp_title, .proj_title {
     text-align: center;
@@ -243,22 +261,6 @@
     width: 60vw;
     gap: 100px;
     box-shadow: 0 2px 2px;
-}
-
-.exp, .project {
-    opacity: 0;
-    transform: translateX(-20px); /* Start slightly to the left */
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.fade_in {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  
-.fade_out {
-    opacity: 0;
-    transform: translateX(-150px);
 }
 
 .exp.active {
